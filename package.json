@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/pdfjs-dist": "^2.7.3",
     "next": "11.0.0",
+    "pdfjs-dist": "^2.8.335",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.35.1"
   },
   "devDependencies": {
     "@types/node": "^15.12.3",
@@ -19,6 +22,7 @@
     "@types/react-dom": "^17.0.8",
     "eslint": "7.28.0",
     "eslint-config-next": "11.0.0",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.4",
+    "typescript-plugin-css-modules": "^3.4.0"
   }
 }
